@@ -1,0 +1,83 @@
+/* login.css */
+.login-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full height of the viewport */
+  background: linear-gradient(135deg, #a0e1f9 0%, #ffefba 100%); /* Light blue to light yellow gradient */
+  padding: 20px; /* Add some padding around the edges */
+}
+
+.login-form {
+  width: 400px; /* Fixed width for the form */
+  padding: 40px; /* Increased padding for the form */
+  background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent white background */
+  border-radius: 20px; /* More rounded corners */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+  border: 1px solid #d3d3d3; /* Light border */
+}
+
+.login-page h1 {
+  text-align: center; /* Center the title */
+  margin-bottom: 25px; /* Space below the title */
+  font-size: 32px; /* Larger font size for the title */
+  color: #ff5733; /* Bright coral color for the title */
+  font-family: 'Arial', sans-serif; /* Modern font */
+}
+
+.login-page .ant-form-item {
+  margin-bottom: 20px; /* Space between form items */
+}
+
+.login-page .ant-input {
+  border-radius: 10px; /* Rounded corners for inputs */
+  border: 2px solid #ff5733; /* Bright coral border */
+  padding: 12px; /* Padding inside input */
+  transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.login-page .ant-input:focus {
+  border-color: #ffbd69; /* Highlight border on focus */
+  box-shadow: 0 0 5px rgba(255, 189, 105, 0.5); /* Glow effect */
+}
+
+.login-page .btn {
+  width: 100%; /* Full width button */
+  padding: 12px; /* Padding for the button */
+  border: none; /* Remove default border */
+  border-radius: 10px; /* Rounded corners for button */
+  background: linear-gradient(90deg, #ff5733, #ffbd69); /* Coral to light yellow gradient for button */
+  color: white; /* White text */
+  font-size: 18px; /* Font size for button */
+  font-weight: bold; /* Bold text */
+  cursor: pointer; /* Pointer cursor */
+  transition: background 0.3s, transform 0.3s, box-shadow 0.3s; /* Smooth transition */
+  outline: none; /* Remove outline */
+}
+
+.login-page .btn:hover {
+  background: linear-gradient(90deg, #ffbd69, #ff5733); /* Reverse gradient on hover */
+  transform: translateY(-2px); /* Slight lift effect on hover */
+  box-shadow: 0 5px 15px rgba(255, 87, 51, 0.3); /* Slight shadow on hover */
+}
+
+.login-page .d-flex {
+  display: flex; /* Use flexbox for layout */
+  justify-content: space-between; /* Space between items */
+}
+
+.login-page .ant-form-item-explain {
+  color: #ff4d4f; /* Soft error message color */
+}
+
+/* Link Styling */
+.login-page a {
+  color: #ff5733; /* Bright coral color for the link */
+  text-decoration: none; /* Remove underline */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.login-page a:hover {
+  color: #ffbd69; /* Lighter yellow on hover */
+  text-decoration: underline; /* Underline on hover */
+}

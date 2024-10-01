@@ -1,0 +1,42 @@
+/* Header styles */
+.navbar {
+    background-color: #007bff; /* Navbar background color */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Add shadow for depth */
+}
+
+.navbar-brand {
+    font-weight: bold; /* Bold text */
+    font-size: 1.8rem; /* Increased size for prominence */
+    color:  black;
+    letter-spacing: 1px; /* Add spacing between letters */
+    text-transform: uppercase; /* Uppercase letters for style */
+}
+
+.nav-link {
+    font-weight: bold; /* Bold text */
+    color: black; /* White text color */
+    padding: 10px 15px; /* Add padding for clickable area */
+    transition: color 0.3s ease; /* Smooth color transition */
+}
+
+
+
+.btn-primary {
+    background-color: #28a745; /* Button background color */
+    border-color: #28a745; /* Button border color */
+    font-weight: bold; /* Bold button text */
+    padding: 10px 20px; /* Increase button padding */
+    transition: background-color 0.3s ease; /* Smooth background color transition */
+}
+
+.btn-primary:hover {
+    background-color: #218838; /* Darker shade on hover */
+}
+
+.navbar-toggler {
+    border-color: #ffdd57; /* Toggler border color */
+}
+
+.navbar-toggler-icon {
+    background-color: #ffdd57; /* Toggler icon color */
+}

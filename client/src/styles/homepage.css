@@ -1,0 +1,121 @@
+/* homepage.css */
+
+/* Global styles */
+body {
+    font-family: 'Arial', sans-serif; /* Use a clean, modern font */
+    background-color: #f0f4f8; /* Light background color */
+}
+
+/* Container styles */
+.filters {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: linear-gradient(135deg, #ff6f61, #ffcc33); /* Colorful gradient background */
+    padding: 20px;
+    border-radius: 15px; /* Rounded corners */
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3); /* Soft shadow */
+    margin: 20px; /* Margin around the filter section */
+}
+
+/* Title styles */
+.filters h6 {
+    font-size: 20px; /* Increased font size */
+    color: #fff; /* White text for contrast */
+    font-weight: bold; /* Bold text */
+}
+
+/* Select styles */
+.filters .ant-select {
+    width: 200px; /* Fixed width for selects */
+}
+
+/* Button styles */
+.btn {
+    padding: 10px 20px; /* Padding for buttons */
+    background: linear-gradient(90deg, #00bcd4, #ff4081); /* Bright gradient background */
+    color: white; /* White text */
+    border: none; /* Remove border */
+    border-radius: 10px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s, transform 0.3s; /* Smooth transition */
+    font-size: 16px; /* Font size for buttons */
+}
+
+.btn:hover {
+    background: linear-gradient(90deg, #ff4081, #00bcd4); /* Reverse gradient on hover */
+    transform: translateY(-2px); /* Slight lift effect on hover */
+}
+
+/* Content area */
+.content {
+    margin: 20px; /* Margin around the content area */
+}
+
+/* Table styles */
+.ant-table {
+    background-color: #ffffff; /* Solid white background for table */
+    border-radius: 15px; /* Rounded corners for table */
+    overflow: hidden; /* Hide overflow */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2); /* Light shadow for the table */
+}
+
+.ant-table th {
+    background: #ff6f61; /* Header background color */
+    color: white; /* White text for header */
+}
+
+.ant-table td {
+    color: #333; /* Dark color for table data */
+}
+
+/* Modal styles */
+.ant-modal {
+    border-radius: 15px; /* Rounded corners for modal */
+}
+
+.ant-modal-header {
+    background: #00bcd4; /* Header background for modal */
+    color: white; /* White text in header */
+}
+
+/* Input styles */
+.ant-input {
+    border-radius: 10px; /* Rounded corners for inputs */
+    border: 2px solid #00bcd4; /* Border color */
+    transition: border-color 0.3s; /* Smooth transition */
+}
+
+.ant-input:focus {
+    border-color: #ff4081; /* Focus border color */
+    box-shadow: 0 0 5px rgba(255, 64, 129, 0.5); /* Glow effect on focus */
+}
+
+/* Icons styles */
+.switch-icons {
+    display: flex; /* Flex display for icons */
+    align-items: center; /* Center alignment */
+}
+
+.active-icon {
+    color: #ff6f61; /* Active icon color */
+    font-size: 24px; /* Size for icons */
+}
+
+.inactive-icon {
+    color: #999; /* Inactive icon color */
+    font-size: 24px; /* Size for icons */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .filters {
+        flex-direction: column; /* Stack filters vertically */
+    }
+    .filters h6 {
+        margin-bottom: 10px; /* Space below heading */
+    }
+    .filters .ant-select {
+        margin-bottom: 10px; /* Space below select */
+    }
+}

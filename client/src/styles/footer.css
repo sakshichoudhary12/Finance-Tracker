@@ -1,0 +1,18 @@
+/* Footer styles */
+.footer {
+    background-color: #343a40; /* Dark background color */
+    color: #ffffff; /* Light text color */
+    padding: 20px; /* Padding for spacing */
+    text-align: center; /* Center text alignment */
+    position: relative; /* Allows footer to be positioned relative to the page */
+    bottom: 0; /* Ensure it sticks to the bottom */
+    width: 100%; /* Full width */
+    margin-top: 20px; /* Space above the footer */
+}
+
+/* Additional styles for responsiveness */
+@media (max-width: 768px) {
+    .footer {
+        padding: 15px; /* Adjust padding on smaller screens */
+    }
+}

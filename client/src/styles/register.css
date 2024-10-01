@@ -1,0 +1,74 @@
+/* Register.css */
+.register-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Full height of the viewport */
+    background: linear-gradient(to right, #a2c2e9, #f6e3b2); /* Light gradient background */
+}
+
+.register-page .ant-form {
+    width: 400px; /* Fixed width for the form */
+    padding: 30px;
+    background-color: white; /* White background for the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Soft shadow */
+    border: 2px solid #f7d0b2; /* Light border */
+}
+
+.register-page h1 {
+    text-align: center; /* Center the title */
+    margin-bottom: 20px; /* Space below the title */
+    font-size: 28px; /* Font size for the title */
+    color: #f76b6b; /* Soft coral color for the title */
+}
+
+.register-page .ant-form-item {
+    margin-bottom: 15px; /* Space between form items */
+}
+
+.register-page .ant-input {
+    border-radius: 5px; /* Rounded corners for inputs */
+    border: 1px solid #f7d0b2; /* Light border */
+    transition: border-color 0.3s, box-shadow 0.3s; /* Smooth transition */
+}
+
+.register-page .ant-input:focus {
+    border-color: #f76b6b; /* Highlight border on focus */
+    box-shadow: 0 0 5px rgba(247, 107, 107, 0.5); /* Glow effect */
+}
+
+.register-page .btn {
+    width: 100%; /* Full width button */
+    padding: 10px; /* Padding for the button */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners for button */
+    background: linear-gradient(to right, #f76b6b, #f7c4c4); /* Light gradient background for button */
+    color: white; /* White text */
+    font-size: 16px; /* Font size for button */
+    cursor: pointer; /* Pointer cursor */
+    transition: background 0.3s; /* Smooth transition */
+}
+
+.register-page .btn:hover {
+    background: linear-gradient(to right, #f7c4c4, #f76b6b); /* Reverse gradient on hover */
+}
+
+.register-page .d-flex {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between items */
+}
+
+.register-page .ant-form-item-explain {
+    color: #ff4d4f; /* Soft error message color */
+}
+
+/* Link Styling */
+.register-page a {
+    color: #f76b6b; /* Soft coral color for the link */
+    text-decoration: none; /* Remove underline */
+}
+
+.register-page a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
